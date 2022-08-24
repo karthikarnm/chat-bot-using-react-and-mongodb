@@ -1,0 +1,13 @@
+.widgets{
+    color: black;
+}
+.list{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+.listItems{
+    font-size: 1rem;
+    margin: 8px 0;
+    text-align: left;
+}

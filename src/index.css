@@ -1,0 +1,384 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* logo */
+.logo {
+
+	height: 0px;
+	/* width: 120px; */
+	border-radius: 10px;
+	transition: transform .2s;
+}
+
+.logo1 {
+
+	height: 50px;
+	width: 100px;
+
+}
+
+/* navbar */
+
+.navbar-nav {
+	margin-top: 0;
+	margin-right: 0 !important;
+	padding-right: 100px;
+}
+
+.navbar {
+	background-color: white;
+	color: rgb(127, 33, 33) !important;
+
+}
+
+.nav-item a {
+	color: white !important;
+}
+
+.nav-item {
+	padding-left: 2px;
+}
+
+.navbar-brand {
+	color: white !important;
+	padding-left: 100px;
+}
+
+#navbar button {
+	color: white !important;
+}
+
+/* banner */
+
+#banner-container {
+	background-color: #0a193d;
+	color: white !important;
+	padding-top: 180px;
+	padding-bottom: 120px;
+
+}
+
+#banner-row img {
+	max-width: 70%;
+	height: auto;
+	display: block;
+	padding-left: 30px;
+}
+
+#banner-row h3,
+p {
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#banner-row a {
+	background-color: rgb(238, 223, 223) !important;
+	color: black !important;
+	border: none;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+
+#banner-col {
+	padding-left: 20px;
+}
+
+/* service */
+#service {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#service h1 {
+	padding-bottom: 70px;
+}
+
+/* about */
+
+#about {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#about h1 {
+	padding-bottom: 70px;
+}
+
+#about-col ul {
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#about-col ul li {
+	padding-top: 15px;
+
+}
+
+/* product */
+
+#product {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#product h1 {
+	padding-bottom: 70px;
+}
+
+#product-col2 ul {
+	padding-top: 90px;
+}
+
+#product-col2 ul li {
+	padding-top: 15px;
+}
+
+/* social */
+
+#social {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#social h1 {
+	padding-bottom: 70px;
+}
+
+.social-col a:hover img {
+	transform: translateY(-10px);
+}
+
+#social-row {
+	flex-direction: row;
+}
+
+/* footer */
+
+.mb-3 {
+	padding-top: 10px;
+}
+
+
+/* media */
+@media only screen and (max-width: 987px) {
+	.navbar-brand {
+		padding-left: 30px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#banner-row img {
+		padding-top: 20px;
+	}
+
+	.social-col {
+		width: 33%;
+	}
+
+}
+
+.product {
+	width: 100px;
+	height: 500px;
+}
+
+#bannercol-2 {
+	border-radius: 30px;
+}
+
+#image {
+	transition: transform .2s;
+}
+
+#image:hover {
+	transform: scale(1.2);
+
+}
+
+.button {
+	background-color: #051029;
+	float: right;
+
+}
+
+.button:hover {
+	transform: scale(1.2);
+
+}
+
+
+
+
+.ce-my-message-bubble {
+	background-color: #220550 !important;
+}
+
+.ce-chat-title-text {
+	color: #0c0457 !important;
+}
+
+.ce-chat-subtitle-text {
+	color: #341f56 !important;
+	font-weight: 600;
+}
+
+#ce-send-message-button {
+	position: relative !important;
+	bottom: 2px !important;
+	left: 1px !important;
+	background-color: #332943 !important;
+}
+
+.ce-my-message-timestamp {
+	color: #1b053e !important;
+}
+
+.transition-3 {
+	transition: all 0.33s ease;
+	-webkit-transition: all 0.33s ease;
+	-moz-transition: all 0.33s ease;
+}
+
+.transition-5 {
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.33s ease;
+	-moz-transition: all 0.33s ease;
+}
+
+
+/* login form */
+
+.heading {
+	padding-top: 100px;
+	font-weight: 500;
+	color: #051029;
+
+}
+
+.side-image {
+	background-color: #051029;
+	background-image: url("../public/images/login3.jpg");
+
+	height: 400px;
+
+	padding-right: 20px;
+
+
+
+}
+
+.side-image1 {
+
+	height: 200px;
+	
+
+
+}
+
+.from1 {
+	background-color: aliceblue;
+}
+
+.hide {
+	display: none;
+}
+
+.myDIV:hover+.hide {
+	display: block;
+	color: 'red';
+}
+
+.window {
+	background-color: '#051029';
+}
+
+/* chatbot */
+.open-button {
+	background-color: #555;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	position: fixed;
+	bottom: 23px;
+	right: 28px;
+	width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	border: 3px solid #f1f1f1;
+	z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+	max-width: 300px;
+	padding: 10px;
+	background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+	resize: none;
+	min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+	background-color: #04AA6D;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom: 10px;
+	opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+	background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+	opacity: 1;
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand .7s ease-in-out both;
+	animation: tracking-in-expand .7s ease-in-out both
+}
+
+
+
+.invalid-feedback {
+	color: #ff606e;
+}
+
+.valid-feedback {
+	color: #2acc80;
+}
